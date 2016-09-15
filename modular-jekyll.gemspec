@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'modular/jekyll/version'
+require 'modular-jekyll/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "modular-jekyll"
-  spec.version       = Modular::Jekyll::VERSION
+  spec.version       = ModularJekyll::VERSION
   spec.authors       = ["Scott Dover"]
   spec.email         = ["sdover102@gmail.com"]
 
